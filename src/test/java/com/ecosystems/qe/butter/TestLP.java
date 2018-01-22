@@ -45,7 +45,7 @@ public class TestLP {
                 "The smoothest way to see your Memberships & Subscriptions\n" +
                         "1 place + 1% cashback",
                 heroscript.getText());
-        
+
 
         /*ystem.out.println("Sign up");*/
 
