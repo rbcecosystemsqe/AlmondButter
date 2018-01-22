@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ButterTest">
+
+    <test name="butter">
+        <classes>
+            <class name="com.ecosystems.qe.butter.ButterTest" />
+            <class name="com.ecosystems.qe.butter.TestLP" />
+        </classes>
+    </test>
+
+</suite>

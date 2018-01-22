@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AlmondButter.iml" filepath="$PROJECT_DIR$/.idea/modules/AlmondButter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AlmondButter_main.iml" filepath="$PROJECT_DIR$/.idea/modules/AlmondButter_main.iml" group="AlmondButter" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AlmondButter_test.iml" filepath="$PROJECT_DIR$/.idea/modules/AlmondButter_test.iml" group="AlmondButter" />
+    </modules>
+  </component>
+</project>
