@@ -37,15 +37,12 @@ public class TestLP {
             /* verify 'signup' link */
         ControlWrapper lpsignup = new ControlWrapper(browsertest, LandingPage.signuplink);
         System.out.println("Signup");
-        Assert.assertTrue(lpsignup.);
+        Assert.assertTrue(lpsignup.elementvisible());
 
         /* verify hero script */
         WebElement heroscript = browsertest.findElement(LandingPage.herotext);
-        Assert.assertEquals(
-                "The smoothest way to see your Memberships & Subscriptions\n" +
-                        "1 place + 1% cashback",
-                heroscript.getText());
-
+        Assert.assertEquals("The smoothest way to see your Memberships & Subscriptions 1 place + 1% cashback",
+                heroscript.getText().trim());
 
         /*ystem.out.println("Sign up");*/
 
